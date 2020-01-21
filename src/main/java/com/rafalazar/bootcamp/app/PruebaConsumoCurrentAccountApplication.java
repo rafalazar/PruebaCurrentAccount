@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import com.rafalazar.bootcamp.app.documents.PersonalConsumer;
 import com.rafalazar.bootcamp.app.dto.PersonalDto;
@@ -15,6 +16,7 @@ import com.rafalazar.bootcamp.app.service.PersonalConsumerService;
 
 import reactor.core.publisher.Flux;
 
+@EnableEurekaClient
 @SpringBootApplication
 public class PruebaConsumoCurrentAccountApplication implements CommandLineRunner {
 	

@@ -15,6 +15,7 @@ public class PersonalConsumer {
 	private String id;
 	private String status;
 	private PersonalDto personalDto;
+//	private String idClient;
 	
 	public PersonalConsumer() {
 		
@@ -25,6 +26,11 @@ public class PersonalConsumer {
 		this.status = status;
 		this.personalDto = personalDto;
 	}
+	
+//	public PersonalConsumer(String status, String idClient) {
+//		this.status = status;
+//		this.idClient = idClient;
+//	}
 	
 	
 
